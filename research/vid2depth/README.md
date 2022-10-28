@@ -34,11 +34,12 @@ for a TF2 implementation of vid2depth.
 
 ```shell
 mkvirtualenv venv  # Optionally create a virtual environment.
-pip install absl-py
-pip install matplotlib
-pip install numpy
-pip install scipy
-pip install tensorflow
+pip install absl-py=0.15
+pip install matplotlib=3.53
+pip install numpy=1.19
+pip install scipy=1.1
+pip install tensorflow=1.15
+
 ```
 
 ### Download vid2depth
